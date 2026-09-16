@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10120f">
+  <meta name="description" content="John Clarence Layog's programming and software development portfolio. Explore Centrix Labs, a working platform for uploading and releasing free apps, and interactive development projects.">
+  <meta property="og:title" content="John Clarence Layog — Software Developer">
+  <meta property="og:description" content="Programming, web development, and working software projects. Featuring Centrix Labs, interactive app demos, and direct email and WhatsApp contact.">
+  <meta property="og:type" content="website">
+  <title>John Clarence Layog — Software Developer</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23d4ff79'/%3E%3Cpath d='M37 14v27c0 10-17 13-22 2l8-4c2 5 6 4 6 0V14zM43 15h7v34h-7z' fill='%2310120f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#work">Skip to projects</a>
+  <div class="pointer-glow" aria-hidden="true"></div>
+  <div class="page-progress" aria-hidden="true"></div>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="John Clarence Layog, home"><span class="monogram">J<span>CL</span><i>✦</i></span><span class="brand-name">John Clarence<span>Layog / Portfolio</span></span></a>
+    <nav aria-label="Main navigation"><a href="#work">Projects <span>04</span></a><a href="#about">About</a><a href="#stack">Tech stack</a><a href="#play">Playground</a><a href="#contact">Contact <span>↗</span></a></nav>
+    <button class="motion-button" id="motion-toggle" type="button" aria-pressed="true" aria-label="Turn animations off"><span aria-hidden="true">✦</span><span class="motion-label">Motion on</span></button>
+  </header>
+  <main>
+    <section class="hero section-shell" id="home" aria-labelledby="hero-heading">
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-copy">
+        <div class="eyebrow enter">PROGRAMMING &amp; SOFTWARE DEVELOPMENT</div>
+        <h1 id="hero-heading" class="enter delay-1"><span>John</span><span>Clarence</span><em>Layog<span class="name-period">.</span></em></h1>
+        <p class="hero-description enter delay-2">I turn ideas into working websites and applications.<br>Code that solves a problem. Experiences that feel different.</p>
+        <div class="hero-actions"><a class="button button-primary magnetic enter delay-3" href="#work">Explore my projects <span class="button-icon" aria-hidden="true">↗</span></a><a class="button button-outline enter delay-3" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-visual enter delay-2">
+        <div class="portrait-orbit" aria-hidden="true"></div>
+        <div class="portrait-frame" data-tilt>
+          <div class="portrait-topline"><span>THE PERSON BEHIND THE CODE</span><span aria-hidden="true">↗</span></div>
+          <img class="portrait" src="/assets/john-clarence-layog.jpg" alt="John Clarence Layog seated with a book, wearing a green sweater and sunglasses against a warm orange backdrop." width="1121" height="1536" fetchpriority="high">
+          <div class="portrait-shine" aria-hidden="true"></div>
+          <div class="portrait-caption"><span>Stay curious.<br><strong>Make something good.</strong></span><span class="portrait-star" aria-hidden="true">✦</span></div>
+        </div>
+        <div class="floating-label"><span class="tiny-orbit" aria-hidden="true"></span>IDEAS → CODE → APPLICATIONS</div>
+        <span class="portrait-side-label">CREATIVITY, WITH INTENTION.</span>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO DISCOVER <span aria-hidden="true">↓</span></span><span>PROGRAMMING × WEB DEVELOPMENT × SOFTWARE</span></div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div><span>SOFTWARE DEVELOPMENT</span><b>✦</b><span>WEB APPLICATIONS</span><b>✦</b><span>CREATIVE CODING</span><b>✦</b><span>SOFTWARE DEVELOPMENT</span><b>✦</b><span>WEB APPLICATIONS</span><b>✦</b><span>CREATIVE CODING</span><b>✦</b></div></div>
+
+    <section class="work-section section-shell" id="work" aria-labelledby="work-heading">
+      <div class="section-top reveal"><div><p class="eyebrow">01 / DEVELOPMENT PROJECTS</p><h2 id="work-heading">From an idea<br><em>to working software.</em></h2></div><p class="section-intro">My working project and hands-on app demos.<br>Explore what I’m building.</p></div>
+      <article class="centrix-feature reveal" aria-labelledby="centrix-heading">
+        <div class="centrix-copy">
+          <div class="centrix-kicker"><span class="project-number">01 / FEATURED WORKING PROJECT</span><span class="centrix-live">WORKING &amp; IN DEVELOPMENT</span></div>
+          <div class="centrix-wordmark"><span class="centrix-symbol" aria-hidden="true">&lt;/&gt;</span><h3 id="centrix-heading">Centrix <em>Labs.</em></h3></div>
+          <p class="centrix-lead">A home for software.<br>A place to release what you build.</p>
+          <p class="centrix-description">Centrix Labs is my working software publishing project. The platform is already usable for uploading and releasing free apps—applications available at no cost.</p>
+          <p class="centrix-description">Payment integration and additional features are still in development as I continue improving the platform.</p>
+          <a class="button button-primary" href="https://centrix-labs.pages.dev/" target="_blank" rel="noopener noreferrer" aria-label="Visit Centrix Labs, opens in a new tab">Visit Centrix Labs <span class="button-icon" aria-hidden="true">↗</span></a>
+        </div>
+        <div class="centrix-status" aria-label="Centrix Labs project status">
+          <div class="status-panel-top"><span>PROJECT STATUS</span><span aria-hidden="true">&lt;/&gt;</span></div>
+          <div class="status-panel-intro"><span>Built. Usable.</span><strong>Still getting better.</strong></div>
+          <dl class="feature-status-list">
+            <div><dt>Free app uploads</dt><dd class="status-ready">Available now</dd></div>
+            <div><dt>Free app releases</dt><dd class="status-ready">Available now</dd></div>
+            <div><dt>Payment integration</dt><dd class="status-progress">In progress</dd></div>
+            <div><dt>Additional features</dt><dd class="status-progress">In progress</dd></div>
+          </dl>
+          <p class="centrix-footnote">Free apps can already be uploaded and released while development continues.</p>
+        </div>
+      </article>
+      <div class="demos-intro reveal"><h3>More development projects</h3><span>Three interactive demos. Try them below.</span></div>
+      <div class="project-grid">
+        <article class="project-card orbit-card reveal" data-tilt>
+          <button class="project-open" data-project="orbit" aria-label="Open Orbit task planner demo">
+            <div class="project-visual orbit-visual">
+              <div class="project-visual-top"><span>ORBIT</span><span class="pill">PRODUCTIVITY</span></div>
+              <div class="orbit-preview"><div class="mock-greeting"><span>Your space to focus.</span><span class="mock-avatar">J</span></div><strong>Make room<br>for good work<span>.</span></strong><div class="mock-task"><i class="mock-check">✓</i><span>Turn an idea into a first draft</span><small>DONE</small></div><div class="mock-task"><i></i><span>Make the little details count</span><small>TODAY</small></div><div class="mock-progress"><span></span></div><div class="mock-meta"><span>A little progress, every day.</span><span>01 / 03</span></div></div>
+              <span class="open-project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="project-info"><div><span class="project-number">02 / WEB APP DEMO</span><h3>Orbit</h3><p>A task planner with local persistence.</p></div><span class="project-link">Try the app <span aria-hidden="true">↗</span></span></div>
+          </button>
+        </article>
+        <article class="project-card prism-card reveal" data-tilt>
+          <button class="project-open" data-project="prism" aria-label="Open Prism color studio demo">
+            <div class="project-visual prism-visual">
+              <div class="project-visual-top"><span>prism<span class="prism-spark">✳</span></span><span class="pill">COLOR STUDIO</span></div>
+              <div class="prism-preview"><span>Find your next<br><em>color story.</em></span><div class="swatch-stack"><i></i><i></i><i></i><i></i></div><div class="prism-gradient"></div><span class="prism-code">#F9C6A8 → #6650CB</span></div>
+              <span class="open-project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="project-info"><div><span class="project-number">03 / DEVELOPER TOOL DEMO</span><h3>Prism</h3><p>A gradient studio that generates CSS.</p></div><span class="project-link">Try the studio <span aria-hidden="true">↗</span></span></div>
+          </button>
+        </article>
+        <article class="project-card notes-card reveal" data-tilt>
+          <button class="project-open" data-project="notes" aria-label="Open Field Notes writing app demo">
+            <div class="project-visual notes-visual"><div class="project-visual-top"><span>FIELD NOTES</span><span class="pill">WRITING SPACE</span></div><div class="notes-preview"><div class="paper"><span class="paper-meta">A PLACE FOR THE IN-BETWEEN</span><strong>Good ideas<br>start <em>here.</em></strong><div class="paper-line long"></div><div class="paper-line"></div><div class="paper-line short"></div><span class="paper-footer">Keep a little room for possibility.</span></div><span class="notes-doodle" aria-hidden="true">✳</span></div><span class="open-project-arrow" aria-hidden="true">↗</span></div>
+            <div class="project-info"><div><span class="project-number">04 / WEB APP DEMO</span><h3>Field Notes</h3><p>A Markdown editor with autosave and export.</p></div><span class="project-link">Start writing <span aria-hidden="true">↗</span></span></div>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section section-shell" id="about" aria-labelledby="about-heading">
+      <div class="about-stamp reveal"><span>THINK. CODE.<br>BUILD.</span><i aria-hidden="true">✦</i><small>JOHN CLARENCE LAYOG</small></div>
+      <div class="about-copy reveal"><p class="eyebrow">02 / ABOUT THE DEVELOPER</p><h2 id="about-heading">Behind the code,<br><em>a drive to build.</em></h2><p>I’m John Clarence Layog, focused on programming and software development. I build websites, web applications, and useful software tools, with attention to both functionality and the experience of using them.</p><p>My current working project is Centrix Labs, a platform for uploading and releasing free apps. I’m continuing its development, including payment integration and additional features.</p><div class="approach"><div><span>01</span><strong>Plan the flow.</strong><p>Understand the problem before coding.</p></div><div><span>02</span><strong>Build to work.</strong><p>Turn the idea into usable software.</p></div><div><span>03</span><strong>Keep improving.</strong><p>Test, refine, and develop further.</p></div></div></div>
+    </section>
+
+    <section class="stack-section section-shell" id="stack" aria-labelledby="stack-heading">
+      <div class="section-top reveal"><div><p class="eyebrow">03 / TECH STACK</p><h2 id="stack-heading">The tools behind<br><em>the possibilities.</em></h2></div><p class="section-intro">From interfaces to apps.<br>A growing toolkit and a clear learning roadmap.</p></div>
+      <div class="stack-grid">
+        <article class="stack-card stack-foundations reveal">
+          <div class="stack-card-top"><span class="stack-icon" aria-hidden="true">&lt;/&gt;</span><span class="stack-index">01 / WEB</span></div>
+          <h3>Web foundations</h3><p>Responsive layouts, useful interactions, and experiences that work across screens.</p>
+          <ul class="tech-list" aria-label="Web foundations"><li><span class="tech-mark" aria-hidden="true">H5</span>HTML5</li><li><span class="tech-mark" aria-hidden="true">C3</span>CSS3</li><li><span class="tech-mark" aria-hidden="true">JS</span>JavaScript</li></ul>
+          <div class="stack-status"><span class="stack-dot" aria-hidden="true"></span>POWERING THIS PORTFOLIO</div>
+        </article>
+        <article class="stack-card stack-apps reveal">
+          <div class="stack-card-top"><span class="stack-icon" aria-hidden="true">{ }</span><span class="stack-index">02 / APPLICATIONS</span></div>
+          <h3>Web applications</h3><p>A roadmap through component-driven interfaces, server logic, and connected products.</p>
+          <ul class="tech-list" aria-label="Web application learning roadmap"><li><span class="tech-mark" aria-hidden="true">Re</span>React</li><li><span class="tech-mark" aria-hidden="true">N</span>Next.js</li><li><span class="tech-mark" aria-hidden="true">TS</span>TypeScript</li><li><span class="tech-mark" aria-hidden="true">JS</span>Node.js</li><li><span class="tech-mark" aria-hidden="true">Ex</span>Express</li><li><span class="tech-mark" aria-hidden="true">↔</span>REST APIs</li></ul>
+          <div class="stack-status"><span aria-hidden="true">↗</span>LEARNING ROADMAP</div>
+        </article>
+        <article class="stack-card stack-software reveal">
+          <div class="stack-card-top"><span class="stack-icon" aria-hidden="true">[_]</span><span class="stack-index">03 / SOFTWARE &amp; DATA</span></div>
+          <h3>Logic meets data</h3><p>Languages and databases to explore for software tools and structured application data.</p>
+          <ul class="tech-list" aria-label="Software and database learning roadmap"><li><span class="tech-mark" aria-hidden="true">Py</span>Python</li><li><span class="tech-mark" aria-hidden="true">C#</span>C# / .NET</li><li><span class="tech-mark" aria-hidden="true">SQL</span>SQL</li><li><span class="tech-mark" aria-hidden="true">Pg</span>PostgreSQL</li><li><span class="tech-mark" aria-hidden="true">Sq</span>SQLite</li></ul>
+          <div class="stack-status"><span aria-hidden="true">↗</span>LEARNING ROADMAP</div>
+        </article>
+        <article class="stack-card stack-mobile reveal">
+          <div class="stack-card-top"><span class="stack-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="9" y="3" width="14" height="26" rx="3"/><path d="M13 7h6M14 25h4"/></svg></span><span class="stack-index">04 / MOBILE</span></div>
+          <h3>Ideas, on the go</h3><p>Cross-platform and native technologies on the roadmap for future mobile app projects.</p>
+          <ul class="tech-list" aria-label="Mobile development learning roadmap"><li><span class="tech-mark" aria-hidden="true">Fl</span>Flutter</li><li><span class="tech-mark" aria-hidden="true">Da</span>Dart</li><li><span class="tech-mark" aria-hidden="true">RN</span>React Native</li><li><span class="tech-mark" aria-hidden="true">Kt</span>Kotlin</li><li><span class="tech-mark" aria-hidden="true">Sw</span>Swift</li></ul>
+          <div class="stack-status"><span aria-hidden="true">↗</span>LEARNING ROADMAP</div>
+        </article>
+      </div>
+      <div class="stack-workflow reveal"><div><span class="eyebrow">DEVELOPMENT WORKFLOW</span><p>Version it. Refine it. Release it.</p></div><ul aria-label="Source control and hosting tools"><li>Git</li><li>GitHub</li><li>Cloudflare Pages</li></ul><span class="workflow-star" aria-hidden="true">✦</span></div>
+    </section>
+
+    <section class="play-section section-shell" id="play" aria-labelledby="play-heading">
+      <div class="play-copy reveal"><p class="eyebrow">04 / CREATIVE CODING</p><h2 id="play-heading">Code can move.<br><em>And surprise you.</em></h2><p>A JavaScript and Canvas experiment in motion.<br>Move your pointer—or touch—to leave your mark.</p><div class="mode-switch" role="group" aria-label="Particle pattern"><button class="active" data-shape="orb" aria-pressed="true">Orb</button><button data-shape="wave" aria-pressed="false">Wave</button><button data-shape="helix" aria-pressed="false">Helix</button></div><label class="energy-label" for="energy">Energy <span id="energy-value">50%</span></label><input type="range" id="energy" min="0" max="100" value="50"><button class="button button-outline" id="remix-button">Remix the color <span aria-hidden="true">↻</span></button></div>
+      <div class="play-stage reveal"><canvas id="play-canvas" aria-label="Interactive particle sculpture. Select Orb, Wave or Helix, and adjust the energy slider to change its motion." role="img"></canvas><span class="stage-coordinate top-left">EXPERIMENT / 001</span><span class="stage-coordinate bottom-left" id="pattern-name">ORBITAL FORM</span><span class="stage-coordinate bottom-right">MOVE TO INTERACT ↗</span><div class="stage-cross" aria-hidden="true">+</div></div>
+    </section>
+    <section class="contact-section section-shell" id="contact" aria-labelledby="contact-heading">
+      <div class="contact-copy reveal"><p class="eyebrow">05 / CONTACT</p><h2 id="contact-heading">Have a project<br><em>in mind?</em></h2><p>Let’s talk about your website, application, or next software idea. Reach me directly by email or WhatsApp.</p></div>
+      <div class="contact-links reveal">
+        <a class="contact-card" href="mailto:Clarencedionisio23@gmail.com"><span class="contact-icon" aria-hidden="true">@</span><span class="contact-details"><span class="contact-label">EMAIL</span><strong>Clarencedionisio23@gmail.com</strong><span class="contact-hint">Open your email app</span></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+        <a class="contact-card" href="https://wa.me/639502394858" target="_blank" rel="noopener noreferrer" aria-label="Chat with John Clarence Layog on WhatsApp at 09502394858, opens in a new tab"><span class="contact-icon whatsapp-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8A8.5 8.5 0 0 1 12.5 3H13a8.5 8.5 0 0 1 8 8v.5Z"/><path d="M9 7.8c-.7.3-.9 1.1-.6 2 .8 2.4 2.5 4.1 4.9 5 .9.3 1.7.1 2-.6l.5-1-2-1-1 1c-1.2-.6-2-1.4-2.6-2.6l1-1-1-2-1.2.2Z"/></svg></span><span class="contact-details"><span class="contact-label">WHATSAPP</span><strong>09502394858</strong><span class="contact-hint">Start a WhatsApp conversation</span></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+    <footer class="footer section-shell"><div class="footer-top"><a href="#home" class="footer-name">John Clarence<br><em>Layog.</em></a><a href="#home" class="back-top" aria-label="Back to top">↑</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> JOHN CLARENCE LAYOG</span><span>PROGRAMMING &amp; SOFTWARE DEVELOPMENT</span><a href="#contact">Let’s build something ↗</a></div></footer>
+  </main>
+
+  <dialog id="project-dialog" aria-labelledby="demo-title"><div class="dialog-top"><div><span class="eyebrow">PERSONAL PROJECT / LIVE DEMO</span><h2 id="demo-title">Orbit</h2></div><button class="icon-button" id="close-dialog" aria-label="Close project demo">×</button></div><div id="demo-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="no-script">The portfolio is available to browse. Enable JavaScript to use the interactive project demos and motion playground.</div></noscript>
+</body>
+</html>
